@@ -1,0 +1,5 @@
+inst	.MyServer.py	/^class inst:$/;"	c
+chk_sys	.MyServer.py	/^  def chk_sys(self):$/;"	m	class:inst
+chk_inst	.MyServer.py	/^  def chk_inst(self):$/;"	m	class:inst
+inst	.MyServer.py	/^  def inst(self):$/;"	m	class:inst
+MyServer	.MyServer.py	/^def MyServer():$/;"	f
